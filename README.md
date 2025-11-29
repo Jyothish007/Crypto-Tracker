@@ -1,18 +1,47 @@
-# React + Vite
+# Crypto-Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app to get real-time cryptocurrency prices and market data (price, market cap, volume, 24h change etc.), built with React + Vite + CoinGecko API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+<p align="left">
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/-React Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/-CoinGecko API-8CC43B?style=for-the-badge&logo=coingecko&logoColor=white" alt="CoinGecko API" />
 
-## Expanding the ESLint configuration
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Cryp-racker
-# Cryp-racker
+---
+
+## ✨ Features
+
+- Live cryptocurrency price updates and detailed market data.  
+- Search and filter coins.  
+- Smooth UI built with React + Vite.  
+- Responsive design.
+
+---
+
+## 📸 Screenshots  
+
+### Home Page  
+
+<img width="1417" height="901" alt="Homepage-crypto-track" src="https://github.com/user-attachments/assets/c3f8375f-f873-480e-97ea-827679f0b123" />
+
+## 📦 Installation & Setup
+
+```bash
+# clone the project
+git clone https://github.com/Jyothish007/Crypto-Tracker.git
+
+cd Crypto-Tracker
+
+# install dependencies
+npm install
+
+# run development server
+npm run dev
